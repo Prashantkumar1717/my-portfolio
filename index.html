@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Prashant Kumar, Computer Science student and developer specializing in Python, ML, and web development.">
+    <title>Prashant Kumar - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bc6b98002a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Background Animated Gradients -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-code"></i>
+                <span class="logo-text">Prashant</span>
+            </a>
+            <ul class="nav-list" id="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars open-icon"></i>
+                <i class="fa-solid fa-xmark close-icon" style="display: none;"></i>
+            </div>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home reveal" id="home">
+        <div class="home-content">
+            <div class="home-text">
+                <span class="greeting">Hi, I'm</span>
+                <h1 class="name">
+                    Prashant <span class="gradient-text">Kumar</span>
+                </h1>
+
+                <h2 class="role" data-roles='["Data Engineer","Machine Learning Enthusiast"]'>
+                    <span class="typewriter"></span>
+                </h2>
+
+                <p class="summary">
+                    I am a passionate Computer Science student specialized in Machine Learning, Data Analysis, 
+                    and solve problems with data.
+                </p>
+                <div class="action-btns">
+                    <a href="#contact" class="btn btn-primary">Let's Talk <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="My_Cv[1] - Copy_page-0001.jpg" target="_blank" class="btn btn-outline">View Resume <i
+                            class="fa-solid fa-file-pdf"></i></a>
+                </div>
+                <div class="social-links-hero">
+                    <a href="https://www.linkedin.com/in/prashant-kumar-7337772a4" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Prashantkumar1717" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:pacificastro17@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="home-img-wrapper">
+                <div class="img-border">
+                    <img src="prashant.jpg" alt="Prashant Kumar" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about reveal" id="about">
+        <div class="section-header">
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        </div>
+        <div class="about-container glass-card">
+            <div class="about-text">
+                <p>Hello! I'm <span class="highlight">Prashant Kumar</span>, A passionate Computer Science student and forward-thinking developer. 
+                    I specialize in Machine Learning, Data Analysis, and building modern, interactive software solutions to solve real-world problems.</p>
+
+                <p>I have experience in data analysis and model training, along with database management. I like
+                    working in team and always try to learn new things to solve real-world problems using technology.
+                </p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-box">
+                    <h3>2+</h3>
+                    <p>Years Coding</p>
+                </div>
+                <div class="stat-box">
+                    <h3>10+</h3>
+                    <p>Certificates</p>
+                </div>
+                <div class="stat-box">
+                    <h3>3+</h3>
+                    <p>Projects Built</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects reveal" id="projects">
+        <div class="section-header">
+            <h2 class="section-title">
+                Featured <span class="gradient-text">Projects</span>
+            </h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Prashantkumar1717/data-analysis" class="project-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>Air Quality Index Visualization | ML Project</h3>
+                <span class="project-date">Mar 2025 - Apr 2025</span>
+
+                <p>
+                    Cleaned and aggregated state AQI datasets using Pandas to uncover trends.
+                     Conducted EDA and created interactive visualizations in Seaborn and static charts in Matplotlib.
+                </p>
+
+                <ul class="project-features">
+                    <li><i class="fa-solid fa-check"></i> Numpy , Pandas, EDA</li>
+                    <li><i class="fa-solid fa-check"></i> Visualizations using Jupyter</li>
+                    <li><i class="fa-solid fa-check"></i> Data prediction using Seaborn and Matplotlib</li>
+                </ul>
+
+                <div class="tech-stack">
+                    <span>Pandas</span>
+                    <span>Seaborn</span>
+                    <span>Matplotlib</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Prashantkumar1717/car-prediction-machine-learning-model" target="_blank"
+                            class="project-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>Car Price Prediction ML Model</h3>
+                <span class="project-date">Jun 2025 - Aug 2025</span>
+
+                <p>
+                    Built a model based on features from cardekho.com dataset using Linear Regression. 
+                    Deployed with Streamlit, featuring an interactive web interface for real-time predictions.
+                </p>
+
+                <ul class="project-features">
+                    <li><i class="fa-solid fa-check"></i> Built using Python, Pandas & Scikit-learn</li>
+                    <li><i class="fa-solid fa-check"></i> Interactive web interface with Streamlit</li>
+                    <li><i class="fa-solid fa-check"></i> Data preprocessing and feature engineering</li>
+                </ul>
+
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Scikit-learn</span>
+                    <span>Streamlit</span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-laptop"></i>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Prashantkumar1717?tab=repositories" class="project-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>Air Quality Index Dashboard</h3>
+                <span class="project-date">Feb 2025 - Mar 2025</span>
+
+                <p>
+                    Created an interactive Excel dashboard to visualize dynamic AQI themes across cities/states.
+                     Features pivot tables and various charts for large-scale data analysis.
+                </p>
+
+                <ul class="project-features">
+                    <li><i class="fa-solid fa-check"></i> Built using MS Excel</li>
+                    <li><i class="fa-solid fa-check"></i> Interactive and Responsive dashboard</li>
+                    <li><i class="fa-solid fa-check"></i> distributed data using pivot tables</li>
+                </ul>
+
+                <div class="tech-stack">
+                    <span>MS Excel</span>
+                    <span>Interactive</span>
+                    <span>Pivot Tables</span>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Prashantkumar1717/webproject" class="project-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>E-Learning Platform | Web Development</h3>
+                <span class="project-date">Oct 2023 - Nov 2023</span>
+
+                <p>
+                    Created a website on E-learning platform using HTML and styled with CSS and 
+                    enhanced with JavaScript.
+                </p>
+
+                <ul class="project-features">
+                    <li><i class="fa-solid fa-check"></i> Interactive website </li>
+                    <li><i class="fa-solid fa-check"></i> Dynamic Buttons and Visual themes</li>
+                    <li><i class="fa-solid fa-check"></i> Used Javascript for navigating through pages.</li>
+                </ul>
+
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills reveal" id="skills">
+        <div class="section-header">
+            <h2 class="section-title">Technical <span class="gradient-text">Proficiency</span></h2>
+        </div>
+        <div class="skills-grid-main">
+            <!-- Category 1 -->
+            <div class="skill-category glass-card">
+                <div class="category-icon"><i class="fa-solid fa-code"></i></div>
+                <h3>Programming Languages</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">MySQL</span>
+                </div>
+            </div>
+
+            <!-- Category 2 -->
+            <div class="skill-category glass-card">
+                <div class="category-icon"><i class="fa-solid fa-layer-group"></i></div>
+                <h3>Web Technologies</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">PHP</span>
+                </div>
+            </div>
+
+            <!-- Category 3 -->
+            <div class="skill-category glass-card">
+                <div class="category-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                <h3>Data & Dev Tools</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">Power BI</span>
+                    <span class="skill-tag">Excel</span>
+                    <span class="skill-tag">Git & GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                </div>
+            </div>
+
+            <!-- Category 4 -->
+            <div class="skill-category glass-card">
+                <div class="category-icon"><i class="fa-regular fa-lightbulb"></i></div>
+                <h3>Soft Skills</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">Leadership</span>
+                    <span class="skill-tag">Collaboration</span>
+                    <span class="skill-tag">Adaptability</span>
+                    <span class="skill-tag">Problem Solving</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education reveal" id="education">
+        <div class="section-header">
+            <h2 class="section-title">Academic <span class="gradient-text">Journey</span></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Aug 2023 - Present</div>
+                <h3>B.Tech in Computer Science and Engineering</h3>
+                <h4>Lovely Professional University | Phagwara, Punjab</h4>
+                <p>Current CGPA: <strong>6.97</strong></p>
+                <p>Focusing on advanced algorithms, software engineering principles, and scalable tech architectures.</p>
+            </div>
+            <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Apr 2020 - Jun 2022</div>
+                <h3>Intermediate (Class XII)</h3>
+                <h4>Shubhash Inter College | Unnao, Uttar Pradesh</h4>
+                <p>Percentage: <strong>62.8%</strong></p>
+            </div>
+            <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Apr 2019 - Mar 2020</div>
+                <h3>Matriculation (Class X)</h3>
+                <h4>RLB International Public School | Kanpur, Uttar Pradesh</h4>
+                <p>Percentage: <strong>85%</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extra-Curricular Section -->
+    <section class="extra-curricular reveal" id="extra-curricular">
+        <div class="section-header">
+            <h2 class="section-title">Extra <span class="gradient-text">Curriculars</span></h2>
+        </div>
+        <div class="ec-container">
+            <div class="ec-card glass-card">
+                <i class="fa-solid fa-rocket gradient-text"></i>
+                <div class="ec-content">
+                    <h3>Republic of Cyber Sentinels | Hackathon</h3>
+                    <p>Solved Hacking questions and Captured the Flag in a 24-hour Hackathon using Wireshark.</p>
+                     <span class="project-date">Mar 2024</span>
+                </div>
+            </div>
+            <div class="ec-card glass-card">
+                <i class="fa-solid fa-hands-holding-child gradient-text"></i>
+                <div class="ec-content">
+                    <h3>Krishi Educational and Health Seva Sansthan | Community Development Project </h3>
+                    <p>Worked with NGO and helped in Clean Society campaign, understand and solved their issues during summer. 
+                    </p>
+                     <span class="project-date">July 2024</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates reveal" id="certificates">
+        <div class="section-header">
+            <h2 class="section-title">Certificates & <span class="gradient-text">Certifications</span></h2>
+            <p class="section-subtitle">Visualizing my continuous learning path</p>
+        </div>
+
+        <!-- New Certificates Text Cards first -->
+        <div class="new-certs-grid">
+            <div class="cert-card-text glass-card">
+                <div class="cert-provider">Centre For Professional Enhancement (LPU)</div>
+                <h3>Machine Learning Made Easy: From Basics to AI Applications</h3>
+                <div class="cert-bottom">
+                    <span class="cert-date">Aug 2025</span>
+                    <a href=""
+                        class="cert-link">Verify <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="cert-card-text glass-card">
+                <div class="cert-provider">Google</div>
+                <h3>Foundations of Cybersecurity</h3>
+                <div class="cert-bottom">
+                    <span class="cert-date">May 2024</span>
+                    <a href="https://coursera.org/verify/G77GQF9QFAYX"
+                        class="cert-link">Verify <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="cert-card-text glass-card">
+                <div class="cert-provider">NPTEL</div>
+                <h3>Cloud Computing </h3>
+                <div class="cert-bottom">
+                    <span class="cert-date">Nov 2025</span>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7398853268086415360/"
+                        class="cert-link">Verify <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Existing Vintage / Image Certificates -->
+        <h3 class="subsection-title">My Achievement Gallery</h3>
+        <div class="certificate-grid">
+            <div class="certificate-img-card glass-card">
+                <img src="[Encrypt Edge] Certificate of Participation - Prashant Kumar_page-0001.jpg" alt="[Encrypt Edge] Certificate of Participation" loading="lazy">
+                <div class="cert-img-overlay">
+                    <h4> Republic of Cyber Sentinels (RCS)</h4>
+                    <p>Hackathon | Mar 2024</p>
+                </div>
+            </div>
+            <div class="certificate-img-card glass-card">
+                <img src="computational.jpg" alt="Infosys" loading="lazy">
+                <div class="cert-img-overlay">
+                    <h4> Language Principle & Finite Automata Theory</h4>
+                    <p> Infosys | Aug 2025</p>
+                </div>
+            </div>
+            <div class="certificate-img-card glass-card">
+                <img src="Cloud Computing_page-0001.jpg" alt="cloud Computing" loading="lazy">
+                <div class="cert-img-overlay">
+                    <h4>Cloud Computing</h4>
+                    <p>NPTEL | Oct 2025</p>
+                </div>
+            </div>
+            <div class="certificate-img-card glass-card">
+                <img src="Coursera AQWD6Y6KE6R5_page-0001.jpg" alt="IBM" loading="lazy">
+                <div class="cert-img-overlay">
+                    <h4>Introduction to Hardware and Operating Systems</h4>
+                    <p>IBM (Coursera) | Sep 2024</p>
+                </div>
+            </div>
+            <div class="certificate-img-card glass-card">
+                <img src="Coursera CN6LVRO26AIO_page-0001.jpg" alt="COursera" loading="lazy">
+                <div class="cert-img-overlay">
+                    <h4>Fundamentals of Network Communication</h4>
+                    <p>Coursera | Sep 2024</p>
+                </div>
+            </div>
+            <div class="certificate-img-card glass-card">
+                <img src="Coursera DY7NOGREKFX0_page-0001.jpg" alt="Coursera2" loading="lazy">
+                <div class="cert-img-overlay">
+                    <h4>The Bits and Bytes of Computer Networking</h4>
+                    <p>Google | Sep 2024</p>
+                </div>
+            </div>
+            <div class="certificate-img-card glass-card">
+                <img src="Coursera G77GQF9QFAYX_page-0001.jpg" alt="Google" loading="lazy">
+                <div class="cert-img-overlay">
+                    <h4>Foundations of Cybersecurity</h4>
+                    <p>Google | May 2024</p>
+                </div>
+            </div>
+            <div class="certificate-img-card glass-card">
+                <img src="Coursera R47Z5PEDY0YO_page-0001.jpg" alt="Coursera3" loading="lazy">
+                <div class="cert-img-overlay">
+                    <h4>TCP/IP and Advanced Topics</h4>
+                    <p>Coursera | Nov 2024</p>
+                </div>
+            </div>
+            <div class="certificate-img-card glass-card">
+                <img src="lpu.jpg" alt="lpu" loading="lazy">
+                <div class="cert-img-overlay">
+                    <h4>Machine Learning Made Easy</h4>
+                    <p>Lpu | July 2025</p>
+                </div>
+            </div>
+            <div class="certificate-img-card glass-card">
+                <img src="gen ai.jpg" alt="udemy3" loading="lazy">
+                <div class="cert-img-overlay">
+                    <h4>Master Generative AI</h4>
+                    <p>Udemy | Sep 2025</p>
+                </div>
+            </div>
+            <div class="certificate-img-card glass-card">
+                <img src="c lang.jpg" alt="C language" loading="lazy">
+                <div class="cert-img-overlay">
+                    <h4>Master the C Language</h4>
+                    <p>Udemy | Feb 2024</p>
+                </div>
+            </div>
+            <div class="certificate-img-card glass-card">
+                <img src="chat.jpg" alt="Chat gpt" loading="lazy">
+                <div class="cert-img-overlay">
+                    <h4>AI Essentials for Beginners</h4>
+                    <p>Udemy | Aug 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact reveal" id="contact">
+        <div class="section-header">
+            <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        </div>
+        <div class="contact-container glass-card">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Have an exciting idea or just want to say hi? I'd love to connect!</p>
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+91 8188041695</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>pacificastro17@gmail.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Unnao, Uttar Pradesh</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/prashant-kumar-7337772a4" target="_blank" class="glass-icon"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Prashantkumar1717" target="_blank" class="glass-icon"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="input-group">
+                        <input type="text" name="Name" required placeholder=" " id="name">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="Email" required placeholder=" " id="email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="Message" rows="5" required placeholder=" " id="message"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message <i
+                            class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="logo-text">Prashant</span>
+                </a>
+                <p>"Turning data into insights, and ideas into interactive platforms."</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Prashant Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <button id="back-to-top" title="Back to top" aria-label="Back to top">▲</button>
+</body>
+
+</html>
