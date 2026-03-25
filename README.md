@@ -1,1 +1,1 @@
-https://Prashantkumar1717.github.io/my-portfolio/
+ https://prashantkumar1717.github.io/my-portfolio/
